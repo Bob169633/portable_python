@@ -62,7 +62,7 @@ def main(program):
 
   python_command = find_python(root_folder)
 
-  dist_folder = root_folder / "dist"
+  dist_folder = program_path.parent / "dist"
   build_folder = Path(tempfile.gettempdir()) / "dbd_slot_machine_pyinstaller_build"
   spec_folder = Path(tempfile.gettempdir()) / "dbd_slot_machine_pyinstaller_spec"
 
