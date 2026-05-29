@@ -15,12 +15,12 @@ def app_folder():
 def find_python(root_folder):
   portable_python = root_folder / "portable_python" / "python.exe"
 
-  if portable_python.exists():
-    return [str(portable_python)]
-
   for command in ["py", "python", "python3"]:
     if shutil.which(command):
       return [command]
+
+  if portable_python.exists():
+    return [str(portable_python)]
 
   print("Python was not found.")
   print(f"Expected portable Python at: {portable_python}")
