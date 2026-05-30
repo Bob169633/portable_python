@@ -17,4 +17,4 @@ This repo includes a portable python install for people who don't have python in
 8. Copy the packager.py path and paste into command line
 9. Copy the python file you want made into an executable
 10. NOW YOU CAN HIT ENTER
-11. Shortly, you should see a line that says something like "File was created at <folder>/<folder>/<file_name>.exe"
+11. Shortly, you should see a line that says something like "File was created at folder/folder/file_name.exe", with the folders and file_name being the actual paths
