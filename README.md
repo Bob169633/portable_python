@@ -34,4 +34,4 @@ Python
 
 --> portable_python
 --> --> python.exe
---> --> packager.py```
+--> --> packager.py
