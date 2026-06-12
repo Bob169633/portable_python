@@ -28,6 +28,7 @@ This repo includes a portable python install for people who don't have python in
 
 ### This is an example of the folder structure
 ```Python
+Python
 --> DBD_Slot_Machine_Repo
 --> --> spinthewheel.py (this is in the DBD_Slot_Machine_Repo folder)
 
